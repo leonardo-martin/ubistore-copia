@@ -6,7 +6,6 @@ body{
 header{
   height: 100px;
   width: 100%;
-  background: rgb(247, 247, 247);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,8 +19,28 @@ header .logo img{
 header nav a{
   text-decoration: none;
   color: #c1c0c1;
+  margin: 0 12px;
+}
+
+.btn{
+  background: #111;
+  text-decoration: none;
+  color: #FFF;
+  padding: 12px 60px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  letter-spacing: 1px;
+}
+
+header .options .btn{
+  display: inline-block;
+  margin-left: 20px;
 }
 
 header .icon i{
   color: #c1c0c1;
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 20px;
 }
