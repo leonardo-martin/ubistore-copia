@@ -1,5 +1,5 @@
 body{
-  padding: 70px;
+  padding: 72px;
   font-family: sans-serif;
 }
 
@@ -32,6 +32,29 @@ header nav a{
   border: none;
   letter-spacing: 1px;
 }
+
+.slide{
+  display: flex;
+
+}
+
+.slide-txt{
+flex:3;
+}
+
+.slide-img {
+  flex:10;
+}
+
+.slide-img img{
+  max-width: 100%;
+  display: block;
+}
+
+.btn-green{
+  background: #4bd980;
+}
+
 
 header .options .btn{
   display: inline-block;
